@@ -11,4 +11,4 @@ Data include:
 - figures describing the data standardization and quality control for b0 files
 - figures showing the wind statitics for c0 files
 
-The 
+The scan schedule for the nacelle lidars at AWAKEN in 2023 is the following.

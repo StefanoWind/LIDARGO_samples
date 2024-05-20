@@ -1,11 +1,11 @@
 # LIDARGO_samples
-This repo hosts sample files from AWAKEN generated thorough the LIDARGO package and a code to read them.
+This repo hosts sample files from AWAKEN generated thorough the LIDARGO package described in this [document](https://github.com/StefanoWind/LIDARGO_samples/blob/main/docs/240502_LIDARGO.pdf), and a code to read them.
 
 Data files are stored in separate public an propietary folders. All users will have access to the public data at [link](https://app.box.com/s/egvd3vdxd2gevsqgcnoxwuvpkjdvpsl5) while propietary files (nacelle lidar data streams) are available at this [link](https://nrel.app.box.com/folder/265053402407) only to the CRADA signers (please ask permission to stefano.letizia@nrel.gov). 
 
 Data include:
-- b0-level files, which are standardized and quality-controlled using the LIDARGO package also described in this [document](https://github.com/StefanoWind/LIDARGO_samples/blob/main/docs/240502_LIDARGO.pdf)
-- c0-level files (nacelle lidars only), which are spatial statistics caclculated through the Barnes-scheme-based [LiSBOA](https://amt.copernicus.org/articles/14/2065/2021/) approach
+- b0-level files, which are standardized and quality-controlled using LIDARGO
+- c0-level files (nacelle lidars only), which are spatial statistics calculated through the Barnes-scheme-based [LiSBOA](https://amt.copernicus.org/articles/14/2065/2021/) approach embedded in LIDARGO
 - figures describing the data standardization and quality control for b0 files
 - figures showing the wind statitics for c0 files
   

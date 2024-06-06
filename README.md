@@ -1,7 +1,7 @@
 # LIDARGO_samples
 This repo hosts sample files from AWAKEN generated thorough the LIDARGO package described in this [document](https://github.com/StefanoWind/LIDARGO_samples/blob/main/docs/240502_LIDARGO.pdf), and a code to read them.
 
-Data files are stored in separate public an propietary folders. All users will have access to the public data at [link](https://app.box.com/s/egvd3vdxd2gevsqgcnoxwuvpkjdvpsl5) while propietary files (nacelle lidar data streams) are available at this [link](https://nrel.app.box.com/folder/265053402407) only to the CRADA signers (please ask permission to stefano.letizia@nrel.gov). 
+Data files are stored in separate public an propietary folders. All users will have access to the public data at [link](https://app.box.com/s/egvd3vdxd2gevsqgcnoxwuvpkjdvpsl5) while proprietary files (nacelle lidar data streams) are available at this [link](https://nrel.app.box.com/folder/265053402407) only to the CRADA signers (please ask permission to stefano.letizia@nrel.gov). 
 
 Data include:
 - b0-level files, which are standardized and quality-controlled using LIDARGO

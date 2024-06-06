@@ -18,13 +18,13 @@ matplotlib.rcParams['mathtext.fontset'] = 'cm'
 matplotlib.rcParams['font.size'] = 12
 
 #%% Inputs
-source=os.path.join(cd,'data/test/propietary')
-scan_sel='inflow.turb'#enter here wildcard identifier for the scan (inflow.turb, meand, inflow.stats, wake.stats3d, farmwake, bloc, sc1*ground.stats3d, sh*ground.stats3d)
+source=os.path.join(cd,'data/public')
+scan_sel='sc1*b0*ground.stats3d'#enter here wildcard identifier for the scan (*b0*inflow.turb, *b0*meand, *b0*inflow.stats, *b0*wake.stats3d, *b0*farmwake, *b0*bloc, sc1*b0*ground.stats3d, sh*b0*ground.stats3d)
 D=127#[m] turbine diameter
 
 #%% Initialization
 try:
-    file=glob.glob(os.path.join(source,'*b0*'+scan_sel+'*.nc'))[0]
+    file=glob.glob(os.path.join(source,scan_sel+'*.nc'))[0]
 except:
     print('Could not load file. Please check file path.')
 

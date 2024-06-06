@@ -9,7 +9,7 @@ Data include:
 - figures describing the data standardization and quality control for b0 files
 - figures showing the wind statitics for c0 files
   
-Test_lidar_b0.py can be used to read b0 files and plot overall radial wind speed field, individual realization of the scans, and distrubution of QC flags within the scanning volume. For testing the b0 data, simply download them and copy them into the dedicated data folder of this repo and run Test_lidar_b0.py with the specified wildcard name.
+Test_lidar_b0.py can be used to read b0 files and plot overall radial wind speed field, individual realization of the scans, and distrubution of QC flags within the scanning volume. For testing the b0 data, download them and copy them into the data folder indicated as "source" and run Test_lidar_b0.py with one of the suggested wildcard names. The code will only process the first file if the wildcard has multiple matches.
 
 c0 files have a simpler formatting and the variables can be plotted directly after reading the netCDF files.
 
